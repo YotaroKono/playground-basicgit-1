@@ -1,0 +1,6 @@
+a = input()
+b = list(map(int, input().split()))
+x = min(b)
+y = max(b)
+z = sum(b)
+print(x, y, z)
